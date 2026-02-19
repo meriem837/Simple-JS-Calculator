@@ -1,0 +1,71 @@
+body {
+  background-color: #21607f;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  text-align: center;
+  font-weight: 800;
+  color: #fef2da;
+}
+.calculator {
+  background-color: #f2e7d5;
+  max-width: 280px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 16px;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+.equal {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #e06659;
+}
+.display {
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 30px;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.value {
+  margin-right: 20px;
+}
+button {
+  background-color: #fef2da;
+  padding: 12px;
+  border: none;
+  border-radius: 9999px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+  background-color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+.acAns {
+  background-color: #e79c74;
+}
+.operations {
+  background-color: #9da06a;
+}
+.delete {
+  background-color: #93bdbb;
+}
