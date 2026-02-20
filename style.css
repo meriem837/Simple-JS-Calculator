@@ -69,3 +69,13 @@ button:hover {
 .delete {
   background-color: #93bdbb;
 }
+
+.display {
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+}
+
+.display::-webkit-scrollbar {
+  display: none;
+}
